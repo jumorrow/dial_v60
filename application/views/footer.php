@@ -9,7 +9,7 @@
         </ul>
         <div class="copyright">
             <ul class="menu">
-                <li>&copy; Dial v60. All rights reserved.</li>
+                <li>&copy; <?php echo get_current_year(); ?> Dial v60. All rights reserved.</li>
             </ul>
         </div>
     </section>
