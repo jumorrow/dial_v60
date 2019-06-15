@@ -1,0 +1,10 @@
+.no-padding {padding:0;}
+body.results #header footer::before {background-image: none;}
+div.custom_yield {display: none;}
+span.smaller-text {font-size: 12pt; padding-left:5px;}
+.results_wrapper {display: none;}
+.results_wrapper #step_one::before {background:none;}
+.results_wrapper #step_one { margin-top:0px;}
+#step_five, .form_more_info {display: none;}
+.more_info_action:hover, .more_info_back:hover { cursor: pointer;}
+.center_text { text-align: center;}
