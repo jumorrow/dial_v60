@@ -270,13 +270,14 @@ class Results extends CI_Controller {
             //lighter will have 5 steps, stronger will have 4 steps
             $data['total_steps'] = $this->total_steps;
             
-            $data['pour_one'] = $data['pour_one'];
-            $data['pour_two'] = $data['pour_two'];
-            $data['pour_three'] = $data['pour_three'];
-            $data['pour_four'] = $data['pour_four'];
+            //round all pour values to nearest tenth (for ease of use)
+            $data['pour_one'] = nearest_tenth($data['pour_one']);
+            $data['pour_two'] = nearest_tenth($data['pour_two']);
+            $data['pour_three'] = nearest_tenth($data['pour_three']);
+            $data['pour_four'] = nearest_tenth($data['pour_four']);
             
             if(isset($data['pour_five'])){
-                $data['pour_five'] = $data['pour_five'];
+                $data['pour_five'] = nearest_tenth($data['pour_five']);
             }
 
             //load view with recipe variables for display in HTML
