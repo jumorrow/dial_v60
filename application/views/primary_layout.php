@@ -93,7 +93,8 @@
             <p>This calculator simply takes the guess work out of the 
                 equation and allows you to dial in that pour over 
                 coffee based on your personal preference.</p>
-            <p>Furthermore, certain coffee varietals may benefit from a brighter (more acidic) or sweeter recipe configuration.</p>
+            <p>Furthermore, certain coffee varietals may benefit from a brighter (more acidic) or sweeter recipe configuration.</p> 
+            <p><a class="more_info_back">Back</a> to the form please.</em></span></p>
         </div>
     </article>
     <?php $this->load->view('footer');?>
