@@ -7,7 +7,7 @@
  *
  * @package	CodeIgniter
  * @author	Justin Morrow <jumorrow@protonmail.com>
- * @author Travers La Ville
+ * @author  Travers La Ville <info@lavillesolutions.com>
  */
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
