@@ -82,9 +82,18 @@
             <header>
             <h2>Method Overview and Direction</h2>
         </header>
-            <p>History Text Here</p>
-            <p class="center_text">INFORMATION REGARDING BEAN/REIGON/ROAST TYPE HERE</p>
-            <p><span class="smaller-text"><em>Got it, thanks. <a class="more_info_back">Back</a> to the form please.</em></span></p>
+        <p>The calculation for this brew method is based on the 4:6 
+                ratio, which was used by <a href="https://kurasu.kyoto/blogs/kurasu-journal/2016-world-brewers-cup-champion-tetsu-kasuya" target="_blank">Tetsu Kasuya</a> to secure the win 
+                during the 2016 World Brewers Cup.</p>
+            <p><em>"The 4-6 method begins by dividing the total water into 40% and 60%.
+                    You pour the first 40% in two pours, and then decide how many pours 
+                    you want to make for the last 60%. The first 2 pours decide the balance of 
+                    the acidity and sweetness. The remaining number of pours will decide 
+                    the strength of the coffee."</em>- <strong>Tetsu Kasuya</strong></p>
+            <p>This calculator simply takes the guess work out of the 
+                equation and allows you to dial in that pour over 
+                coffee based on your personal preference.</p>
+            <p>Furthermore, certain coffee varietals may benefit from a brighter (more acidic) or sweeter recipe configuration.</p>
         </div>
     </article>
     <?php $this->load->view('footer');?>
