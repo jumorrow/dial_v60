@@ -12,6 +12,6 @@
     <div class="copyright">
         <ul class="menu">
             <li>&copy; <?php echo get_current_year(); ?> Dial v60. All rights reserved.</li>
-            </ul>
+        </ul>
     </div>
 </section>
