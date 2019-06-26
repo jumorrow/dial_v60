@@ -23,7 +23,7 @@
         </footer>
     </section>
     <article id="first" class="container box style1 right">
-        <a href="#" class="image fit"><img src="<?php echo get_asset_path('images','grind_150x150.jpg');?>" alt="Coffee Grind" /></a>
+        <a href="#" class="image fit"><img src="<?php echo get_asset_path('images','v60-1.jpg');?>" alt="Coffee Grind" /></a>
         <div class="inner">
             <header>
                 <h2>Grind Is Crucial But...</h2>
