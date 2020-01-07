@@ -47,7 +47,7 @@
                         <option value="400">Large Coffee Cup (400ML)</option>
                         <option value="500">Two Standard Coffee Cups (500ML)</option>
                         <option value="custom">Custom Output</option>
-                    </select> 
+                    </select>
                 </div>
                 <div class="col-12 col-12-mobile custom_yield">
                     <p>Enter Desired Coffee Output (300-1000 In ML)</p>
@@ -59,7 +59,7 @@
                     <select name="strength_preference" id="strength_preference">
                         <option value="lighter" selected>Lighter</option>
                         <option value="stronger">Stronger</option>
-                    </select> 
+                    </select>
                 </div>
                 <div class="col-12 col-12-mobile flavor_preference">
                     <p>Flavor Preference</p>
@@ -67,10 +67,10 @@
                         <option value="balanced" selected>Balanced</option>
                         <option value="sweeter">Sweet</option>
                         <option value="brighter">Bright</option>
-                    </select> 
+                    </select>
                     <p><span class="smaller-text"><em>Can't Decide? <a class="more_info_action">Here</a> are some helpful tips.</em></span></p>
-                </div>                    
-                <div class="col-12">    
+                </div>
+                <div class="col-12">
                     <ul class="actions">
                         <li><input type="submit" value="Generate Brew Recipe" /></li>
                     </ul>
@@ -82,18 +82,18 @@
             <header>
             <h2>Method Overview and Direction</h2>
         </header>
-        <p>The calculation for this brew method is based on the 4:6 
-                ratio, which was used by <a href="https://kurasu.kyoto/blogs/kurasu-journal/2016-world-brewers-cup-champion-tetsu-kasuya" target="_blank">Tetsu Kasuya</a> to secure the win 
+        <p>The calculation for this brew method is based on the 4:6
+                ratio, which was used by <a href="https://kurasu.kyoto/blogs/kurasu-journal/2016-world-brewers-cup-champion-tetsu-kasuya" target="_blank">Tetsu Kasuya</a> to secure the win
                 during the 2016 World Brewers Cup.</p>
             <p><em>"The 4-6 method begins by dividing the total water into 40% and 60%.
-                    You pour the first 40% in two pours, and then decide how many pours 
-                    you want to make for the last 60%. The first 2 pours decide the balance of 
-                    the acidity and sweetness. The remaining number of pours will decide 
+                    You pour the first 40% in two pours, and then decide how many pours
+                    you want to make for the last 60%. The first 2 pours decide the balance of
+                    the acidity and sweetness. The remaining number of pours will decide
                     the strength of the coffee."</em>- <strong>Tetsu Kasuya</strong></p>
-            <p>This calculator simply takes the guess work out of the 
-                equation and allows you to dial in that pour over 
+            <p>This calculator simply takes the guess work out of the
+                equation and allows you to dial in that pour over
                 coffee based on your personal preference.</p>
-            <p>Furthermore, certain coffee varietals may benefit from a brighter (more acidic) or sweeter recipe configuration.</p> 
+            <p>Furthermore, certain coffee varietals may benefit from a brighter (more acidic) or sweeter recipe configuration.</p>
             <p><a class="more_info_back">Back</a> to the form please.</em></span></p>
         </div>
     </article>
@@ -103,7 +103,8 @@
         <section id="header">
             <header>
                 <h1>Results</h1>
-                <p>This recipe was generated based on your own personal strength and flavor preferences.</p>
+                <p>This recipe was generated based on your own personal strength and flavor preferences.<br />
+                Let's start by grinding <strong><span class="coffee_dose"></span> grams of coffee</strong>, adding to the wetted filter and leveling.</p>
             </header>
             <footer>
                 <a href="#step_one" class="button style2 scrolly-middle">Let's Start Brewing</a>
@@ -114,7 +115,7 @@
             <header>
                 <h2>Step One (The Bloom)</h2>
                 <p><strong>0:00 - 0:45</strong> - Start by pouring ~<span class="pour_one"></span>
-                    grams of water in a steady, circular motion from center to outward rim without 
+                    grams of water in a steady, circular motion from center to outward rim without
                     pouring on the walls. </p>
             </header>
         </article>
@@ -122,7 +123,7 @@
             <header>
                 <h2>Step Two</h2>
                 <p><strong>@ 0:45</strong> - Continue to pour to ~<span class="pour_two"></span>
-                    grams of water in a steady, circular motion from center to outward rim without 
+                    grams of water in a steady, circular motion from center to outward rim without
                     pouring on the walls. </p>
             </header>
         </article>
@@ -130,7 +131,7 @@
             <header>
                 <h2>Step Three</h2>
                 <p><strong>@ 1:30</strong> - Pour to ~<span class="pour_three"></span>
-                    grams of water in a steady, circular motion from center to outward rim without 
+                    grams of water in a steady, circular motion from center to outward rim without
                     pouring on the walls. </p>
             </header>
         </article>
@@ -138,7 +139,7 @@
             <header>
                 <h2>Step Four</h2>
                 <p><strong>@ 2:15</strong> - Pour to ~<span class="pour_four"></span>
-                    grams of water in a steady, circular motion from center to outward rim without 
+                    grams of water in a steady, circular motion from center to outward rim without
                     pouring on the walls. </p>
             </header>
         </article>
@@ -146,12 +147,12 @@
             <header>
                 <h2>Step Five</h2>
                 <p><strong>@ 3:00</strong> - Pour to ~<span class="pour_five"></span>
-                    grams of water in a steady, circular motion from center to outward rim without 
+                    grams of water in a steady, circular motion from center to outward rim without
                     pouring on the walls. </p>
             </header>
         </article>
         <?php $this->load->view('footer'); ?>
     </div>
-<?php $this->load->view('final_scripts'); ?>       
+<?php $this->load->view('final_scripts'); ?>
 </body>
 </html>

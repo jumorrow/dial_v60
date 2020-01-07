@@ -8,8 +8,8 @@
 <script src="<?php echo get_asset_path('js', 'main.js'); ?>"></script>
 
 <script>
-$(document).ready(function() {   
-    
+$(document).ready(function() {
+
     //variables to hold request
     var request;
     var coffee_data;
@@ -55,20 +55,22 @@ $(document).ready(function() {
                 pour_three = coffee_data.pour_three;
                 pour_four = coffee_data.pour_four;
                 total_steps = coffee_data.total_steps;
-                
+                starting_dose = coffee_data.starting_dose;
+
                 //populate html with variables returned from controller via jQuery
                 $('span.pour_one').html(pour_one);
                 $('span.pour_two').html(pour_two);
                 $('span.pour_three').html(pour_three);
                 $('span.pour_four').html(pour_four);
-                
+                $('span.coffee_dose').html(starting_dose);
+
                 //if five steps in recipe, show fifth step
                 if (total_steps === 5) {
                     pour_five = coffee_data.pour_five;
                     $('span.pour_five').html(pour_five);
                     $('#step_five').show();
                 }
-                
+
                 //scroll effects and fade in / fade out on complete
                 $('html, body').animate({
                     scrollTop: $('body').offset().top
@@ -78,7 +80,7 @@ $(document).ready(function() {
                     });
                 });
             });
-                       
+
             //callback handler that will be called on failure
             request.fail(function (jqXHR, textStatus, errorThrown) {
                 // Log the error to the console
@@ -108,18 +110,18 @@ $(document).ready(function() {
             }
 
         });
-        
+
         $('.more_info_action').click(function(){
             $('.form_inner').fadeOut(1000, function () {
                 $('.form_more_info').fadeIn(1000);
-            });   
+            });
         });
-        
+
         $('.more_info_back').click(function(){
             $('.form_more_info').fadeOut(1000, function () {
                 $('.form_inner').fadeIn(1000);
-            });   
+            });
         });
-        
+
 });
 </script>
