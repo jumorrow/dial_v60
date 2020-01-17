@@ -151,7 +151,7 @@
                     pouring on the walls. </p>
             </header>
         </article>
-        <div class="brew_reset">
+        <div class="brew_reset box">
           <!-- Reset Button -->
           <a href="<?php echo site_url(); ?>" class="button style2 scrolly-middle">Another Cup?</a>
         </div>
