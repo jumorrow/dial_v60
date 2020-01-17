@@ -30,6 +30,7 @@
             </header>
             <p>Every single grinder on the planet will produce a unique output of fines and boulders so let's not focus on "grind settings" and make this easy.</p>
             <p>Simply try and create something similar to this image.</p>
+            <p><em>Shoot for about 20% more coarse than a typical v60 pour over.</em></p>
         </div>
     </article>
     <!-- Ratio Configurator -->
@@ -103,8 +104,7 @@
         <section id="header">
             <header>
                 <h1>Results</h1>
-                <p>This recipe was generated based on your own personal strength and flavor preferences.<br />
-                Let's start by grinding <strong><span class="coffee_dose"></span> grams of coffee</strong>, adding to the wetted filter and leveling.</p>
+                <p>Let's start by grinding <strong><span class="coffee_dose"></span> grams of coffee</strong>, adding to the wetted filter and leveling.</p>
             </header>
             <footer>
                 <a href="#step_one" class="button style2 scrolly-middle">Let's Start Brewing</a>
@@ -151,6 +151,10 @@
                     pouring on the walls. </p>
             </header>
         </article>
+        <div class="brew_reset">
+          <!-- Reset Button -->
+          <a href="<?php echo site_url(); ?>" class="button style2 scrolly-middle">Another Cup?</a>
+        </div>
         <?php $this->load->view('footer'); ?>
     </div>
 <?php $this->load->view('final_scripts'); ?>

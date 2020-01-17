@@ -1,6 +1,4 @@
 <section id="footer">
- <!-- Reset Button -->       
-<button class="icons" type ="reset" value = "Reset" onClick="window.location.reload()"> Reset </button>
 <!--<ul class="icons">-->
 <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
