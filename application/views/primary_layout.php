@@ -6,7 +6,7 @@
     <section id="header">
         <header>
             <h1>Welcome To Dial v60</h1>
-            <p>A Simple, Useful Tool for Dialing in that v60 Pour Over</p>
+            <p>A Simple, Useful Tool for Dialing in that v60 Pour Over Using the 40:60 Method</p>
         </header>
         <footer>
             <a href="#banner" class="button style2 scrolly-middle">Let's Get Started</a>
